@@ -9,4 +9,5 @@ tqdm
 scikit-learn
 fairlearn
 torchmetrics
-Pillow
+pillow
+ipykernel
