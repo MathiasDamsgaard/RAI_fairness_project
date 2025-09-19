@@ -35,5 +35,4 @@ def plot_roc_simple(y_test, y_prob, a_test,y_pred,sensitive_attribute_name=None)
     if sensitive_attribute_name:
         plt.title(f'ROC Curve grouped by {sensitive_attribute_name}')
     else: plt.title(f'ROC Curve grouped')
-    plt.legend(loc="lower right")
-    plt.show()
+    plt.legend(loc="lower right");
